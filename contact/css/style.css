@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /*contact page------------------------------*/
 header#bg-contact{
     background: url(../images/bg-contact.jpg) no-repeat center center/cover;
@@ -121,5 +123,13 @@ form label{
     }
     .send-button{
         text-align: center;
+    }
+    .bg-wrap::before{
+        background-size: 180% 30%;
+    }
+}
+@media (max-width:480px) {
+    .bg-wrap::before{
+        background-size: 180% 25%;
     }
 }
