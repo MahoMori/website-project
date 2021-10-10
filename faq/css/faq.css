@@ -9,7 +9,7 @@ a {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 /* ------------------------------------------ */
@@ -70,6 +70,25 @@ header {
 	color: #fff;
 	font-size: 20px;
 }
+@media (max-width: 768px) {
+	.nav-li li a {
+		font-size: 1.5rem;
+	}
+	.icons i {
+		font-size: 16px;
+	}
+}
+.logo-header {
+	width: 50px;
+}
+
+.nav-li li a {
+	font-size: 0.5rem;
+}
+.icons i {
+	font-size: 7px;
+	padding: 5px;
+}
 
 /*faq*/
 .title {
@@ -78,6 +97,7 @@ header {
 }
 
 .faq p {
+	margin-top: 2%;
 	font-size: 40px;
 	color: #17359f;
 	margin-bottom: 0;
@@ -86,10 +106,27 @@ header {
 .how p {
 	font-size: 18px;
 	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .question {
 	margin: 8%;
+}
+@media (max-width: 425px) {
+	.faq p {
+		font-size: 38px;
+	}
+	.how p {
+		font-size: 16px;
+	}
+}
+@media (max-width: 320px) {
+	.faq p {
+		font-size: 28px;
+	}
+	.how p {
+		font-size: 12px;
+	}
 }
 
 /* Question */
@@ -159,6 +196,14 @@ header {
 	-webkit-transform: rotateX(180deg);
 	transform: rotateX(180deg);
 }
+@media (max-width: 425px) {
+	.cp_qa .cp_tab label {
+		font-size: 14px;
+	}
+	.cp_qa .cp_tab .cp_tab-content p {
+		font-size: 12px;
+	}
+}
 
 /* ------------------------------------------ */
 /* footer */
@@ -209,6 +254,8 @@ footer {
 }
 
 
+
+>>>>>master
 
 /* Smartphone S */
 @media (max-width: 500px){
@@ -428,3 +475,16 @@ footer {
         margin-left: 20px;
     }
 }
+=======
+>>>>>master
+@media (max-width: 425px) {
+	.contact i {
+		font-size: 0.8rem;
+	}
+	.logo-footer {
+		width: 60px;
+		margin-right: 0;
+	}
+}
+<<<<<<landing
+

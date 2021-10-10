@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -11,6 +12,7 @@ a {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 
 /*contact page------------------------------*/
 header#bg-contact{
@@ -130,6 +132,7 @@ form label{
     .send-button{
         text-align: center;
     }
+>>>>>master
 }
 
 /* Smartphone S */
@@ -234,3 +237,14 @@ form label{
     }
 
 
+=======
+    .bg-wrap::before{
+        background-size: 180% 30%;
+    }
+}
+@media (max-width:480px) {
+    .bg-wrap::before{
+        background-size: 180% 25%;
+    }
+}
+<<<<<<landing
