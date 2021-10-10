@@ -408,3 +408,23 @@ footer {
     } 
 }
 
+@media (min-width: 501px) and (max-width: 768px){
+
+    /* header */
+    header {
+        height: 400px;
+    }
+
+    .navy-band {
+        height: 30px;
+    }
+    
+    .nav-li li {
+        margin: 0 10px;
+    }
+
+    .logo-header {
+        width: 80px;
+        margin-left: 20px;
+    }
+}
