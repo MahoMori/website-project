@@ -246,9 +246,6 @@ footer {
 	height: 40px;
 }
 @media (max-width: 425px) {
-	.clr p {
-		font-size: 10px;
-	}
 	.contact i {
 		font-size: 0.8rem;
 	}
