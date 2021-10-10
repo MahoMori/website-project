@@ -255,8 +255,6 @@ footer {
 
 
 
->>>>>master
-
 /* Smartphone S */
 @media (max-width: 500px){
 
@@ -475,8 +473,6 @@ footer {
         margin-left: 20px;
     }
 }
-=======
->>>>>master
 @media (max-width: 425px) {
 	.contact i {
 		font-size: 0.8rem;
@@ -486,5 +482,3 @@ footer {
 		margin-right: 0;
 	}
 }
-<<<<<<landing
-
