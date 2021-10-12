@@ -687,6 +687,10 @@ footer {
     .navy-band {
         height: 30px;
     }
+
+    .nav-li {
+        margin-right: 10px;
+    }
     
     .nav-li li {
         margin: 0 10px;
@@ -695,6 +699,10 @@ footer {
     .logo-header {
         width: 80px;
         margin-left: 20px;
+    }
+
+    .icons {
+        display: none;
     }
 
 
